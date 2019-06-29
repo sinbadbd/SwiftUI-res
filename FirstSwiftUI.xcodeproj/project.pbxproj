@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1298DE622C7E48B005DC052 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1298DE522C7E48B005DC052 /* CircleImage.swift */; };
+		A1298DE822C7ED76005DC052 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1298DE722C7ED76005DC052 /* MapView.swift */; };
 		A12C939D22C7CF4A006FC7AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12C939C22C7CF4A006FC7AC /* AppDelegate.swift */; };
 		A12C939F22C7CF4A006FC7AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12C939E22C7CF4A006FC7AC /* SceneDelegate.swift */; };
 		A12C93A122C7CF4A006FC7AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12C93A022C7CF4A006FC7AC /* ContentView.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A1298DE522C7E48B005DC052 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		A1298DE722C7ED76005DC052 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		A12C939922C7CF4A006FC7AC /* FirstSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A12C939C22C7CF4A006FC7AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A12C939E22C7CF4A006FC7AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +62,8 @@
 			children = (
 				A12C939C22C7CF4A006FC7AC /* AppDelegate.swift */,
 				A12C939E22C7CF4A006FC7AC /* SceneDelegate.swift */,
+				A1298DE522C7E48B005DC052 /* CircleImage.swift */,
+				A1298DE722C7ED76005DC052 /* MapView.swift */,
 				A12C93A022C7CF4A006FC7AC /* ContentView.swift */,
 				A12C93A222C7CF5F006FC7AC /* Assets.xcassets */,
 				A12C93A722C7CF5F006FC7AC /* LaunchScreen.storyboard */,
@@ -148,6 +154,8 @@
 			files = (
 				A12C939D22C7CF4A006FC7AC /* AppDelegate.swift in Sources */,
 				A12C939F22C7CF4A006FC7AC /* SceneDelegate.swift in Sources */,
+				A1298DE822C7ED76005DC052 /* MapView.swift in Sources */,
+				A1298DE622C7E48B005DC052 /* CircleImage.swift in Sources */,
 				A12C93A122C7CF4A006FC7AC /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

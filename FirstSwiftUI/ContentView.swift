@@ -11,20 +11,28 @@ import SwiftUI
 struct ContentView : View {
     var body: some View {
         
-        VStack(alignment: .leading, spacing: 10){
-            Text("Turtle Rock")
-                .font(.title)
-                .color(.red)
-            HStack{
-                Text("This is new lineThis is new lineThis is new lineThis is new line")
-                    .font(.subheadline)
-                Spacer()
-                Text("This is new lineThis e")
-                    .font(.subheadline)
-            }
-            .padding()
+        VStack {
+            MapView()
+                .frame(height: 300)
+            
+            CircleImage()
+                
+            
+            VStack(alignment: .leading, spacing: 10){
+                Text("Turtle Rock")
+                    .font(.title)
+                    .color(.red)
+                HStack{
+                    Text("This is new lineThis is new lineThis is new lineThis is new line")
+                        .font(.subheadline)
+                    Spacer()
+                    Text("This is new lineThis e")
+                        .font(.subheadline)
+                    }
+                    .padding()
+                }
+                .padding()
         }
-        .padding()
     }
 }
 

@@ -13,10 +13,12 @@ struct ContentView : View {
         
         VStack {
             MapView()
-                .frame(height: 300)
+                .edgesIgnoringSafeArea(.top)
+                .frame(height: 300) 
             
             CircleImage()
-                
+                .offset(y: -130)
+                .padding(.bottom, -130)
             
             VStack(alignment: .leading, spacing: 10){
                 Text("Turtle Rock")
@@ -32,6 +34,8 @@ struct ContentView : View {
                     .padding()
                 }
                 .padding()
+                
+            .Spacer()
         }
     }
 }
